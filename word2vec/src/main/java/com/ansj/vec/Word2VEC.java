@@ -15,7 +15,7 @@ public class Word2VEC {
         // learn.saveModel(new File("library/javaSkip1"));
 
         Word2VEC vec = new Word2VEC();
-        vec.loadJavaModel("/Users/huhuichao/work/wanda/machinelearning/word2vec/word2vec-意图识别/word2vec-20.mod");
+        vec.loadJavaModel("/Users/huhuichao/work/51biaoqing/word2vec/train/word2vec-200.mod");
 
         System.out.println("中国" + "\t" +
                 Arrays.toString(vec.getWordVector("中国"))+"-------------------------------------");

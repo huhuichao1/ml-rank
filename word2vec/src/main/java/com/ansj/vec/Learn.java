@@ -445,9 +445,9 @@ public class Learn {
 	public static void main(String[] args) throws IOException {
 		Learn learn = new Learn();
 		long start = System.currentTimeMillis();
-		learn.learnFile(new File("/Users/huhuichao/work/wanda/machinelearning/lda/topic64/1031/article_text.txt"));
+		learn.learnFile(new File("/tmp/tags.txt"));
 		System.out.println("use time " + (System.currentTimeMillis() - start));
-		learn.saveModel(new File("/Users/huhuichao/work/wanda/machinelearning/word2vec/train/word2vec-200.mod"));
+		learn.saveModel(new File("/Users/huhuichao/work/51biaoqing/word2vec/train/word2vec-200.mod"));
 
 	}
 }

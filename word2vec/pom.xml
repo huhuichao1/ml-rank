@@ -13,11 +13,11 @@
 	<dependencies>
 
 
-		<dependency>
-			<groupId>cn.hhc</groupId>
-			<artifactId>ik-analyzer</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>com.biaoqing.search</groupId>-->
+			<!--<artifactId>search-common</artifactId>-->
+			<!--<version>0.0.1-SNAPSHOT</version>-->
+		<!--</dependency>-->
 
 		<dependency>
 			<groupId>cn.hhc</groupId>
